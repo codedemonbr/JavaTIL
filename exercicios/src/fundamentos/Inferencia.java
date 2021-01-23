@@ -23,5 +23,9 @@ public class Inferencia {
 		var e = 123.45;
 		System.out.println(e);
 		
+		/**
+		 * Resumindo tudo o que foi escrito acima. Java consegue inferir tipo. Mas uma vez definido, isso se torna estático
+		 */
+		
 	}
 }
