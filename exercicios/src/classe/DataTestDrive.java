@@ -15,7 +15,10 @@ public class DataTestDrive {
 		d2.mes = 12;
 		d2.dia = 15;
 
-		System.out.println("D1 - " + d1.dia + "/" + d1.mes + "/" + d1.ano);
-		System.out.println("D2 - " + d2.dia + "/" + d2.mes + "/" + d2.ano);
+		System.out.println("D1 - " + d1.ObterDataFormatada());
+		System.out.println("D2 - " + d2.ObterDataFormatada());
+
+		d1.ImprimirDataFormatada();
+		d2.ImprimirDataFormatada();
 	}
 }
