@@ -4,12 +4,8 @@ package classe;
 
 public class DataTestDrive {
 	public static void main(String[] args) {
-		Data d1 = new Data();
+		Data d1 = new Data(7, 12, 1990);
 		Data d2 = new Data();
-
-		d1.ano = 1990;
-		d1.mes = 12;
-		d1.dia = 7;
 
 		d2.ano = 1980;
 		d2.mes = 12;
