@@ -5,16 +5,17 @@ public class Data {
 	Integer mes;
 	Integer ano;
 
-	Data(int diaInicial, int mesInicial, int anoIncial) {
-		dia = diaInicial;
-		mes = mesInicial;
-		ano = anoIncial;
+	Data(int dia, int mes, int ano) {
+		this.dia = dia;
+		this.mes = mes;
+		this.ano = ano;
 	}
 
 	Data() {
-		dia = 1;
-		mes = 1;
-		ano = 1970;
+		// dia = 1;
+		// mes = 1;
+		// ano = 1970;
+		this(1, 1, 1970);
 	}
 
 	String ObterDataFormatada() {
